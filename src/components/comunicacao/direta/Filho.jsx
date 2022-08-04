@@ -3,8 +3,5 @@ import React from "react";
 
 export default props =>
     <div>
-        <h2>Os Filhos: </h2>
-        <div>
-            {props.children}
-        </div>
+        <h4>{props.children} {props.sobrenome}</h4>
     </div>
