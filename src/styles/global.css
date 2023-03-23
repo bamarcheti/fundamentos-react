@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    scroll-behavior: smooth;
+    background-color: #2b2b2b;
+}
+
+h1,
+h1 {
+    font-weight: 300;
+}
+
+#root,
+body,
+html {
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-feature-settings: "lnum";
+    -moz-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #bdbdbd;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(156, 156, 156);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(155, 155, 155);
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(238, 238, 238) inset !important;
+    -webkit-text-fill-color: rgb(141, 140, 140) !important;
+}
