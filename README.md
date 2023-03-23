@@ -4,7 +4,7 @@
 
 Projeto desenvolvido para o aprendizado na tecnologia React. Sendo desenvolvido componentes, listagem, comunicação indireta, contador e mega-sena.
 
-[🔗 Clique aqui para acessar](https://previsao-tempo-bamarcheti.vercel.app/)
+[🔗 Clique aqui para acessar](https://fundamentos-react-bamarcheti.vercel.app/)
 
 
 ## __🛠 Tecnologias__
