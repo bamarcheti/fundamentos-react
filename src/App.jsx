@@ -10,7 +10,7 @@ import Input from './components/Input/index';
 import Primeiro from './components/Primeiro/index';
 import Repeticao from './components/Repeticao/index';
 import Title from './components/Title';
-import Contador from './components/contador/Contador';
+import Contador from './components/Count';
 import Mega from './components/mega/Mega';
 import './styles/App.css';
 
