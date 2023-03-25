@@ -1,14 +1,15 @@
-/* eslint-disable import/no-anonymous-default-export */
 import React from "react"
 
-export default (props) => {
+function ComParametro(props) {
     // props é somente leitura!
     // props.titulo = "Outro Título";
-    
+
     return (
-        <>
+        <div>
             <h3>{props.titulo}</h3>
             <p>{props.subtitulo}</p>
-        </>
+        </div>
     )
 }
+
+export default ComParametro
