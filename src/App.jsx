@@ -24,10 +24,10 @@ function App() {
           <Primeiro />
         </Card>
         <Card titulo="#02 - Componente Com Parametro" color="#FF85CB">
-          <ComParametro titulo="Esse é o títlo" subtitulo="Esse é o subtítulo" />
+          <ComParametro titulo="Esse é o título" subtitulo="Esse é o subtítulo" />
           <ComParametro titulo="Opa" subtitulo="Epa" />
         </Card>
-        <Card titulo="#03 - Componente Com Filhos" color="#D96459">
+        <Card titulo="#03 - Componente com Filhos" color="#D96459">
           <ComFilhos>
             <ul>
               <li>Ana</li>
