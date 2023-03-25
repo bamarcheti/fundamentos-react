@@ -8,10 +8,10 @@ import CondicionalComIf from './components/Condicional/CondicionalComIf';
 import CondicionalSimples from './components/Condicional/CondicionalSimples';
 import Contador from './components/Contador/index';
 import Input from './components/Input/index';
+import Mega from './components/MegaSena';
 import Primeiro from './components/Primeiro/index';
 import Repeticao from './components/Repeticao/index';
 import Title from './components/Title';
-import Mega from './components/mega/Mega';
 import './styles/App.css';
 
 function App() {
