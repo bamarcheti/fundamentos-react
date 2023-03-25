@@ -1,5 +1,5 @@
 import React from "react";
-import Filho from "./Filho";
+import Filho from "./components/Filho";
 
 function Pai(props) {
   return (
