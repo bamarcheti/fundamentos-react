@@ -2,12 +2,12 @@ import React from 'react';
 import Card from './components/Card/index';
 import ComFilhos from './components/ComFilhos/index';
 import ComParametro from './components/ComParametro/index';
+import CondicionalComIf from './components/CondicionalComIf/index';
 import CondicionalSimples from './components/CondicionalSimples';
 import Input from './components/Input/index';
 import Primeiro from './components/Primeiro/index';
 import Repeticao from './components/Repeticao/index';
 import Title from './components/Title';
-import CondicionalComIf from './components/basicos/CondicionalComIf';
 import Pai from './components/comunicacao/direta/Pai';
 import Super from './components/comunicacao/indireta/Super';
 import Contador from './components/contador/Contador';
@@ -40,8 +40,8 @@ function App() {
         <Card titulo="#04 - Repetição" color="#008BBA">
           <Repeticao />
         </Card>
-        <Card titulo="#05 - Condicional v1" color="#E94C6F">
-          <CondicionalComIf numero={11} />
+        <Card titulo="#05 - Condicional com If" color="#E94C6F">
+          <CondicionalComIf numero={20} />
         </Card>
         <Card titulo="#06 - Condicional Simples" color="#FA6900">
           <CondicionalSimples numero={10} />
