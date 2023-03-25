@@ -1,19 +1,18 @@
 import React from 'react';
-import './styles/App.css';
-
-import ComFilhos from './components/basicos/ComFilhos';
-import ComParametro from './components/basicos/ComParametro';
+import Card from './components/Card/index';
+import ComFilhos from './components/ComFilhos/index';
+import ComParametro from './components/ComParametro/index';
+import Input from './components/Input/index';
+import Primeiro from './components/Primeiro/index';
+import Repeticao from './components/Repeticao/index';
+import Title from './components/Title';
 import Condicional from './components/basicos/Condicional';
 import CondicionalComIf from './components/basicos/CondicionalComIf';
-import Primeiro from './components/basicos/Primeiro';
-import Repeticao from './components/basicos/Repeticao';
 import Pai from './components/comunicacao/direta/Pai';
 import Super from './components/comunicacao/indireta/Super';
 import Contador from './components/contador/Contador';
-import Input from './components/form/Input';
-import Card from './components/layout/Card';
 import Mega from './components/mega/Mega';
-import Title from './components/Title';
+import './styles/App.css';
 
 function App() {
   return (
@@ -42,13 +41,13 @@ function App() {
           <Repeticao />
         </Card>
         <Card titulo="#05 - Condicional v1" color="#E94C6F">
-          <CondicionalComIf numero={11}></CondicionalComIf>
+          <CondicionalComIf numero={11} />
         </Card>
         <Card titulo="#06 - Condicional v2" color="#FA6900">
-          <Condicional numero={10}></Condicional>
+          <Condicional numero={10} />
         </Card>
         <Card titulo="#07 - Comunicação Direta" color="#4298B5">
-          <Pai sobrenome="Freitas"></Pai>
+          <Pai sobrenome="Freitas" />
         </Card>
         <Card titulo="#08 - Comunicação Indireta" color="#000">
           <Super />
@@ -57,7 +56,7 @@ function App() {
           <Input />
         </Card>
         <Card titulo="#10 - Contador" color="#293E6A">
-          <Contador passo={10} valor={100}></Contador>
+          <Contador passo={10} valor={100} />
         </Card>
         <Card titulo="#11 - Mega" color="#73503C">
           <Mega qtdNumero={8} />
