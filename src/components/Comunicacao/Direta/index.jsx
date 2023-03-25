@@ -1,7 +1,7 @@
 import React from "react";
 import Filho from "./components/Filho";
 
-function Pai(props) {
+function Direta(props) {
   return (
     <div>
       <Filho {...props}>João</Filho>
@@ -10,4 +10,4 @@ function Pai(props) {
     </div>
   )
 }
-export default Pai
+export default Direta

@@ -2,7 +2,8 @@ import React from 'react';
 import Card from './components/Card/index';
 import ComFilhos from './components/ComFilhos/index';
 import ComParametro from './components/ComParametro/index';
-import Pai from './components/Comunicacao/Direta';
+import Direta from './components/Comunicacao/Direta';
+import Indireta from './components/Comunicacao/Indireta';
 import CondicionalComIf from './components/Condicional/CondicionalComIf';
 import CondicionalSimples from './components/Condicional/CondicionalSimples';
 import Input from './components/Input/index';
@@ -46,10 +47,10 @@ function App() {
           <CondicionalSimples numero={10} />
         </Card>
         <Card titulo="#07 - Comunicação Direta" color="#4298B5">
-          <Pai sobrenome="Freitas" />
+          <Direta sobrenome="Freitas" />
         </Card>
         <Card titulo="#08 - Comunicação Indireta" color="#000">
-          <Super />
+          <Indireta />
         </Card>
         <Card titulo="#09 - Input" color="#9C0F5F">
           <Input />

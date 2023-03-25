@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Sub from "./Sub";
+import Sub from "./components/Sub";
 
-function Super(props) {
+function Indireta() {
 
     const [texto, setTexto] = useState('Valor')
     const [num, setNum] = useState(0)
@@ -18,4 +18,4 @@ function Super(props) {
         </div>
     )
 }
-export default Super
+export default Indireta
